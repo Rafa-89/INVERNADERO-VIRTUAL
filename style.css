@@ -1,0 +1,109 @@
+
+
+body {
+  background-image: url(imagenes/invernadero1.jpg);
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+#menu {
+  height: 60px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #707070;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.numeroPlantas {
+  margin-bottom: 20px;
+}
+
+#plantasContenedor {
+  position: relative; /* Agrega esta línea */
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.box {
+  background: rgba(255, 0, 0, 0.522);
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.planta {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px; /* Ajustar según sea necesario */
+  margin-right: 20px;
+  position: relative;
+  bottom: 0;
+  }      
+      
+  
+
+
+#tope-invernadero {
+  width: 100%;
+  height: 10px;
+  background-color: #ff0000;
+  position: absolute;
+  margin-top: 60px;
+  left: 0;
+  z-index: 9999;
+}
+
+.botonesContenedor {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+}
+
+.cuadro-tabla {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cuadro-tabla th, .cuadro-tabla td {
+  border: 1px solid #e106066c; /* Ajusta el color y grosor del borde según sea necesario */
+  padding: 10px;
+  text-align: center;
+}
+
+.cuadro-tabla th {
+  background-color: #f2f2f2; /* Color de fondo para las celdas del encabezado */
+}
+
+.cuadro-tabla .resaltada {
+  background-color: #ffcc00; /* Ajusta el color de fondo de la fila resaltada */
+  font-weight: bold; /* Puedes ajustar el estilo del texto según sea necesario */
+}
+
+
+
+.cuadro-tabla .resaltada {
+  background-color: #ffcc00; /* Ajusta el color de fondo de la fila resaltada */
+  font-weight: bold; /* Puedes ajustar el estilo del texto según sea necesario */
+}
+
